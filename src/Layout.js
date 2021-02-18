@@ -3,18 +3,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ButtonAppBar from "../src/Navpage";
 import Middlesection from "../src/Middlesection";
-import Parag2 from "../src/Parag2";
  
+
+import Head from "next/head";
 
  
 const Layout = props => (
     <div className ="Pageinbox" >
       <ButtonAppBar />
+
+      <Head>
+      <title>WHATABYTE</title>
+    </Head>
  
  <div className ="Property">
         {props.children}
   </div>
-      <Parag2 />
+    
+ 
    <Middlesection />
    <Middlesection />
     </div>
