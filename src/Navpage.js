@@ -3,9 +3,7 @@ import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import {FiActivity} from "react-icons/fi";
 import NavR from "../src/navbMenu";
-import { FcList } from "react-icons/fc";
- 
-
+import { FiAlignJustify} from "react-icons/fi";
 import {FcViewDetails} from "react-icons/fc";
 import Link from 'next/link'
 
@@ -20,8 +18,10 @@ export default function ButtonAppBar() {
     const HandleNav =  () => {
       if (nav) {
       setNav(false)
+   
       } else 
       setNav(true)
+   
    
   
     
@@ -71,23 +71,37 @@ export default function ButtonAppBar() {
 
   return (
     <div id = "AppB" >
-     {nav ? 
+ 
 
-<div className ="insideNav">  <NavR />  </div>
-  : 
+<div className ="insideNav" style={{width: nav ? "100%" : "0", height: "100%"}}>  <NavR />  </div>
+ 
 
 <div> </div>
   
-}
-
-
-
-    <div id =" mobile1"  >
-    
-    <img src={" https://i.ibb.co/rkL8My8/logoo.png"} width="100%" height="100%" />
-    <div className = "MenuIconbox">   <li className= "menuicon"> <FcList onClick={HandleNav} size="6vh"   /></li></div>
  
+
+
+
+    <div className=" mobile1"  >
+    <div>
+    
+    <img src={" https://i.ibb.co/rkL8My8/logoo.png"} width="100%" height="100%" /> 
+   
+ 
+   </div>
+    <div className = "MenuIconbox">  
+    
+  
+    <li onClick={HandleNav}>    
+    <FiActivity size="5.5vh" color="white" padding="2" style={{marginLeft: "20px", marginTop: "14px"}}  /> </li>
+   </div>
     </div>
+
+    
+
+
+    
+
     <div id = "flexy">
     <ul>
   
@@ -145,3 +159,9 @@ export default function ButtonAppBar() {
     </div></div>
   );
 }
+
+
+
+
+
+

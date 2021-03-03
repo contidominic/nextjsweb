@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import ButtonAppBar from "../src/Navpage";
 import Middlesection from "../src/Middlesection";
  
+ 
+ 
 
 import Head from "next/head";
 
@@ -11,7 +13,7 @@ import Head from "next/head";
 const Layout = props => (
     <div className ="Pageinbox" >
       <ButtonAppBar />
-
+ 
       <Head>
       <title>WHATABYTE</title>
     </Head>
@@ -22,6 +24,7 @@ const Layout = props => (
     
  
    <Middlesection />
+ 
    <Middlesection />
     </div>
   );

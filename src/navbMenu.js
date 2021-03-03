@@ -2,67 +2,95 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import { FcList } from "react-icons/fc";
+import { AwesomeButton } from "react-awesome-button";
 import { FcElectronics } from "react-icons/fc";
 import { FcGallery } from "react-icons/fc";
 import { FcAddressBook} from "react-icons/fc";
 import { FcMultipleDevices} from "react-icons/fc";
+import {FaFacebookSquare} from "react-icons/fa";
+ 
 
-
+<FcAddressBook size="3vh" padding="2" size="10vw" />
 
 
 
 const NavR = () => {
     const [nav1, setNav1] = useState(true);
 
+    
 
     const NavItems = () => {
         return (
 
-            <div >
+            <div style={{height: "100%;"}} >
             <div className="NavRtop">
             
                <div className="navRtop1"> </div>
+
+
          
             
               
             </div>
-            <div className="navR2"> <h1> </h1> </div>
-     <div className="BoxMenu1">
+<div className="mainLogo">
+<img src={"    https://www.iottechtrends.com/assets/uploads/2019/09/Nest-Headline-800x400.png"} width="30%" height="30%" />
 
-            <div className="navMenu1"> 
-            <div className="boxsmall"> <div> Menu </div> </div>
-            <div class="navMenu2">  
-            <div className="color1"><FcList /> Leo</div>
-  <div classname="color3"> <FcList /> Leo </div>
-  </div>
+
+</div>            
          
-         <div class="navMenu3">  
-            <div className= "color3" > <FcElectronics /> Lisa </div>
-  <div><FcMultipleDevices /> goldie</div>
-  </div>
 
-  <div class="navMenu4">  
-            <div><FcGallery /> Leo</div>
-  <div><FcAddressBook /> boss</div>
-  </div>
+         <div className="sectionHeader">
+            <p> Services </p>
+         </div>
+        
+
+            <div className = "boxMain">
+        
+            <div id="testB" > <AwesomeButton type="primary" > <FcElectronics size="8vh" padding="2" style={{marginRight: "-380px"}} /><li style={{listStyle: "none", margin: "20px"}}>
+ Mobile Apps </li>
  
-         
+    
+    </AwesomeButton> </div> 
 
-         
-       
+     <div id="testB3" style={{marginTop: "6px"}}  > <AwesomeButton type="primary" > <FcElectronics size="8vh" padding="2" style={{marginRight: "-380px"}} /><li style={{listStyle: "none", margin: "20px"}}>
+ Mobile Apps </li>
+ 
+    
+    </AwesomeButton> </div> 
+    <div id="testB4" style={{marginTop: "6px"}} > <AwesomeButton type="primary" > <FcElectronics size="8vh" padding="2" style={{marginRight: "-380px"}} /><li style={{listStyle: "none", margin: "20px"}}>
+ Mobile Apps </li>
+ 
+    
+    </AwesomeButton> </div>    <div id="testB5"  style={{marginTop: "6px"}} > <AwesomeButton type="primary" > <FcElectronics size="8vh" padding="2" style={{marginRight: "-380px"}} /><li style={{listStyle: "none", margin: "20px"}}>
+ Mobile Apps </li>
+ 
+    
+    </AwesomeButton> </div> 
+    <div id = "testB2" style={{marginTop: "6px"}}  > <AwesomeButton type="primary" > <FcElectronics size="8vh" padding="2" style={{marginRight: "-380px"}} /><li style={{listStyle: "none", margin: "20px"}}>
+ Mobile Apps </li>
+ 
+    
+    </AwesomeButton> </div> 
+
+  
+    <div className="navFooter">
+
+  
+    
+      <FaFacebookSquare size="6vh"/>     <FaFacebookSquare size="6vh"/>     <FaFacebookSquare size="6vh"/>
+      </div>
+</div>
 
 
-         
-                </div>
-                
-                </div>
-        </div>
-
+ </div>
+   
+  
 
         );
         }
  
-
+ 
+    
     
 return (
   
@@ -71,7 +99,8 @@ return (
 
  <NavItems />  
 
-)
+);
 }
+ 
 
 export default NavR;
