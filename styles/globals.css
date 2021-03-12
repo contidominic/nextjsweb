@@ -1,5 +1,21 @@
 html,
+
+
+@media only screen and (max-width: 600px) {
+  #C1 p {
+display: block;
+transition: height 0.6s ease-in !important;
+max-height: 600px  !important;
  
+
+
+ 
+   
+     }
+      
+     }
+
+     
 
 a {
   color: inherit;
@@ -20,13 +36,271 @@ a {
   
   }
 
+  .boxx {
+    
+  }
+
+
   
    * {
     box-sizing: border-box;
   }
   
+.mobswipe {
+  display: none;
+}
+
+#joinedBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 50px;
+  }
+  
+  #joinedBoxes  div {
+
+  flex: 25%;
+  height: 240px;
+  
+  
+  
+  }
+  
+  #jbox1 {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/TJ4bBtTCGnGqXNS6Dgsdce.png");
+    background-color: #cccccc;
+  
+ 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+  }
+
+   
+  
+  #jbox2 {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/6ZSTwXkAVAcsmqP5gvGAKj.jpg");
+    background-color: #cccccc;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+     
+  }
+  #jbox3 {
+    background-image: url("https://images.idgesg.net/images/article/2019/05/dscf0453_final-100797561-large.3x2.jpg");
+    background-color: #cccccc;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+  
+  #jbox4 {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/PES6US4DGQsJVRQmnqkzCZ-1200-80.jpg");
+    background-color: #cccccc;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+  }
+
+  #jbox5 {
+    background-image: url("https://miuc.org/wp-content/uploads/2017/01/Study-Computer-Science-1280x720.jpg");
+    background-color: #cccccc;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+  }
+  #jbox6 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEbR3GtaxKNMsDRLQNu9GCIM4Pu4J7VddwTQ&usqp=CAU");
+    background-color: #cccccc;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+  }
+
+  #jbox7 {
+    background-image: url("https://www.openaccessgovernment.org/wp-content/uploads/2020/08/dreamstime_l_124110584.jpg");
+    background-color: #cccccc;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+  }
+
+  #jbox8 {
+    background-image: url("https://miuc.org/wp-content/uploads/2017/01/Study-Computer-Science-1280x720.jpg");
+    background-color: #cccccc;
+   display:flex;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+  }
 
 
+  
+  
+  #jbox1R {
+   position: absolute;
+  width: 100%;
+ text-align: center;
+ height: 100%;
+  background-color: rgb(0,0,0,0.5);
+  color: white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   
+  top:0;
+ 
+   
+  }
+
+    @media only screen and (max-width: 600px) {
+                                      #joinedBoxes  {
+                            
+                              display: block;
+                            
+                                
+                                     
+                                       
+                                         }
+                                          
+                                         }
+
+  .icoo {
+ z-index: 1000 !important;
+ 
+ 
+  }
+  
+  #jbox2R {
+   position: absolute;
+  width: 100%;
+  background-color: rgb(0,0,0,0.5);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  top:0;
+   
+   
+  
+  
+  }
+  
+  #jbox3R {
+   position: absolute;
+  width: 100%;
+  background-color: rgb(0,0,0,0.5);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  top:0;
+   
+   
+  
+  
+  }
+  
+  #jbox4R {
+   position: absolute;
+  width: 100%;
+  background-color: rgb(0,0,0,0.5);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  top:0;
+   
+   
+  
+  
+  }
+  #jbox5R {
+    position: absolute;
+   width: 100%;
+   background-color: rgb(0,0,0,0.5);
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: white;
+   top:0;
+  }
+  
+  #jbox6R {
+    position: absolute;
+   width: 100%;
+   background-color: rgb(0,0,0,0.5);
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: white;
+   top:0;
+  }
+  #jbox7R {
+    position: absolute;
+   width: 100%;
+   background-color: rgb(0,0,0,0.5);
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: white;
+   top:0;
+  }
+  
+  #jbox8R {
+    position: absolute;
+   width: 100%;
+   background-color: rgb(0,0,0,0.5);
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: white;
+   top:0;
+  }
+  
+  
 
  
  
@@ -345,6 +619,14 @@ border-radius: 18px;
  }
 }
 
+@media only screen and (min-width: 600px) {
+  #C1 {
+   display: none;
+ }
+}
+
+
+
 @media only screen and (max-width: 600px) {
   .insideNav{
    
@@ -625,8 +907,8 @@ margin-left: 4px !important;
     --button-default-font-size: 1em !important;
     --button-default-border-radius: 5px !important;
     --button-horizontal-padding: 300px !important;
-   
-   
+  
+    
     --button-raise-level:2vw !important;
     --button-hover-pressure: 0.5 !important;
     --transform-speed: 0.185s !important;
@@ -926,7 +1208,7 @@ margin-left: 4px !important;
         
         body {
 
-          overflow-x: hidden;
+        
         }
 
          #miniC {
@@ -993,7 +1275,7 @@ font-weight:  bold;
             
            }
 
-           .con2 {
+ .con2 {
              display: none;
              position: relative;
             
@@ -1132,3 +1414,243 @@ font-weight:  bold;
                                 }
                                  
                                 }
+ 
+                                @media only screen and (min-width: 600px) {
+                                  .try {
+                                   display:none;
+                                  
+                                    }
+                                     
+                                    }
+
+         
+
+
+                                    @media only screen and (max-width: 1000px) {
+                                      #joinedBoxes  {
+                                        display: flex;
+                                      
+                                  
+                                  
+                                
+                                     
+                                       
+                                         }
+                                          
+                                         }
+ 
+
+                                         @media only screen and (max-width: 1000px) {
+                                          #joinedBoxes > div {
+                                            flex: 50%;
+                                          
+                                      
+                                      
+                                    
+                                         
+                                           
+                                             }
+                                              
+                                             }
+
+                                             
+                                         @media only screen and (max-width: 1000px) {
+                                          .try {
+                                           display: flex;
+                                          
+                                      
+                                      
+                                    
+                                         
+                                           
+                                             }
+                                              
+                                             }
+                                              
+                                              
+
+                                    @media only screen and (max-width: 600px) {
+                                      #joinedBoxes  {
+                            
+                              display: block;
+                            
+                                
+                                     
+                                       
+                                         }
+                                          
+                                         }
+                                          
+                                         @media only screen and (max-width: 600px) {
+                                           #joinedBoxes > div {
+                                             width: 100%;
+                                           
+                                       
+                                       
+                                     
+                                          
+                                            
+                                              }
+                                               
+                                              }
+                                               
+                                          
+                                              @media only screen and (min-width: 1200px) {
+                                               .spanS  {
+                                      
+                                        font-size: 22px !important;
+                                      
+                                          
+                                               
+                                                 
+                                                   }
+                                                    
+                                                   }
+                                                     @media only screen and (max-width: 600px) {
+                                           #joinedBoxes > div {
+                                             width: 100%;
+                                           
+                                       
+                                       
+                                     
+                                          
+                                            
+                                              }
+                                               
+                                              }
+           
+                                              @media only screen and (max-width: 600px) {
+                                                #joinedBoxes > div {
+                                                  width: 100%;
+                                                
+                       
+                                          
+                                               
+                                                 
+                                                   }}
+                                                    
+                                            
+.swipe {
+  width: 100%;
+  height: 600px;
+}
+
+.app > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row !important;
+}
+
+.row > * {
+  margin: 5px;
+}
+
+h1 {
+  font-family: "Damion", cursive;
+  color: #fff;
+  text-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #fff;
+}
+
+.swipe {
+  position: absolute;
+}
+
+.cardContainer {
+  width: 100%;
+ 
+  height: 700px;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 500px;
+ 
+  height: 500px !important;
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardContent {
+  width: 100%;
+  height: 100%;
+}
+
+.swipe:last-of-type {
+}
+
+.card h3 {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  color: #fff;
+}
+
+.infoText {
+  width: 100%;
+  height: 28px;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  animation-name: popup;
+  animation-duration: 800ms;
+}
+
+.buttons {
+  margin: 20px;
+  display: flex;
+}
+
+.buttons button {
+  flex-shrink: 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  background-color: #9198e5;
+  transition: 200ms;
+  margin: 0 10px;
+  font-weight: bolder;
+  width: 160px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(1, 1);
+  }
+  10% {
+    transform: scale(1.1, 1.1);
+  }
+  30% {
+    transform: scale(0.9, 0.9);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  57% {
+    transform: scale(1, 1);
+  }
+  64% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

@@ -3,6 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ButtonAppBar from "../src/Navpage";
 import Middlesection from "../src/Middlesection";
+import Cube1 from "../src/Cube1";
+import BoxesJ from "../src/boxesJ";
  
  
  
@@ -21,11 +23,14 @@ const Layout = props => (
  <div className ="Property">
         {props.children}
   </div>
+<BoxesJ />
+
+   <Middlesection />
     
+
  
    <Middlesection />
- 
-   <Middlesection />
+     <Cube1 />
     </div>
   );
   

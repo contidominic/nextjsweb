@@ -1,4 +1,4 @@
-import React, { useState }  from 'react';
+import React, { useState, useEffect }  from 'react';
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import {FiActivity} from "react-icons/fi";
@@ -6,6 +6,7 @@ import NavR from "../src/navbMenu";
 import { FiAlignJustify} from "react-icons/fi";
 import {FcViewDetails} from "react-icons/fc";
 import Link from 'next/link'
+
 
 
 export default function ButtonAppBar() {
@@ -65,6 +66,26 @@ export default function ButtonAppBar() {
   const display = {
   display: "none" 
   }
+
+  useEffect(
+    () => {
+      let timer1 = setTimeout(() =>  window.scroll({
+        top: 1,
+        left: 0,
+        behavior: 'smooth',
+      }),
+      
+      
+      
+      50);
+ 
+      return () => {
+        clearTimeout(timer1);
+      };
+    }, []
+  
+  );
+  
 
 
   
