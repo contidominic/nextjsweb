@@ -30,7 +30,7 @@ const Layout = props => (
 
  
    <Middlesection />
-     <Cube1 />
+     //<Cube1 />
     </div>
   );
   
