@@ -3,8 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ButtonAppBar from "../src/Navpage";
 import Middlesection from "../src/Middlesection";
-import Cube1 from "../src/Cube1";
+import Decks from "../src/swipe/Cards";
+ 
 import BoxesJ from "../src/boxesJ";
+import FeatBoxes from "../src/pageone/FeatBoxes";
  
  
  
@@ -24,13 +26,18 @@ const Layout = props => (
         {props.children}
   </div>
 <BoxesJ />
+<div className ="featureBC"> <FeatBoxes /> </div>
+<div id ="root1"> <Decks/> </div>
 
-   <Middlesection />
+
+  
     
 
  
    <Middlesection />
-     //<Cube1 />
+
+
+    
     </div>
   );
   

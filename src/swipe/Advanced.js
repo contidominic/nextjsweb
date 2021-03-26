@@ -68,7 +68,7 @@ function Advanced() {
   };
 
   return (
-    <div>
+    <div style={{width: "10px", display: "flex", justifyContent: "center"}}>
    
       <h1>React Tinder Card</h1>
       <div className="cardContainer">

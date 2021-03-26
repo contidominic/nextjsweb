@@ -16,7 +16,7 @@ const Parag2 = () => {
         <div>
 
 <div className = "con2" >
-<img src ={"https://i.pinimg.com/564x/17/b4/e9/17b4e9a3fbc57796d77bcdd98554a5af.jpg"} alt ="Image" />
+ 
 <div className ="con2Ab">
 <img id ="pc" src ={computer}alt="addlater" />
     

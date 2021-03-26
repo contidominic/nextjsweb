@@ -9,77 +9,100 @@ import {FaCcVisa } from "react-icons/fa";
 import {FaEdge } from "react-icons/fa";
 import {FaBuromobelexperte } from "react-icons/fa";
 import { FaPhoenixSquadron} from "react-icons/fa";
-import TinderCard from 'react-tinder-card';
-import Advanced from './swipe/Advanced';
+import DemoSwipe from "./swipe/Swipe1"
  
 
-
-
-
-
-
-
+ 
  
  
 
 const BoxesJ = () => {
 
-    const [clicke, setClicked] = useState(false);
-    const logoRef = useRef();
-  
-    const HandleClick = () => {
-      if (!clicke) {
-        setClicked(true);
-        logoRef.current.style.height = "600px";
-        logoRef.current.style.transition = "height 1s ease-in";
-     
-      
-    
-       
-  
-        
-      
-       
-        
-      } else {
-        setClicked(false);
-        logoRef.current.style.height = "0";
-        logoRef.current.style.transition = "height 1s ease-out";
-        
-      }
-    };
-    const onSwipe = (direction) => {
-      console.log('You swiped: ' + direction)
-    }
-    
-    const onCardLeftScreen = (myIdentifier) => {
-    return (
-      <p> hey </p>
-    )
-    }
  
-    return (  
-<div id = "joinedBoxes" >
-<div  className = "Jb" id ="jbox1">
-<div id ="jbox1R">
+    const jbox1R = useRef();
+    const jbox2R = useRef();
+    const cRef = useRef();
+    const cRef1 = useRef();
 
-<FiActivity onClick={HandleClick} style={{backgroundColor: "green", height: "30%", borderRadius: "54px", width: "24%", color:"white"}} className="icoo" /> 
+ 
+     
+
+
+    const changeBg = (ref) => {
+    let cref =     cRef.current.style.width;
+  if(cref == "0px") {
+
+    ref.current.style.backgroundColor="rgb(0,0,0,0.1)";
+    ref.current.style.transition="background-color 1000ms linear"
+
+    
+    cRef.current.style.transition="width 1000ms linear"
+        cRef.current.style.width = "100%"
+        cRef.current.style.backgroundColor="black";
+      
+ 
+     
+        cRef.current.style.width = "100%";
+      
+
+        
+  } else {
+    cRef.current.style.width = "0px";
+        cRef.current.style.transition = "width 1s ease-in";
+  }
+   
+  }
+    const HandleClick = (ref) => {
+   
+   changeBg(ref) 
+  
+    
+    }
+
+    const Testclick = () => {
+   
+     
+      cRef.current.style.width = "0px";
+       
+       }
+   
+   
+    
+
+ 
+ 
+   
+        
+  
+     
+
+   
+
+    return (  
+      <>
+     <div classname="Containerjbox">
+<div id = "joinedBoxes"  >
+<div  className = "Jb" id ="jbox1" >
+
+
+<div id ="jbox1R" ref={jbox1R}  onClick={() => {HandleClick(jbox1R)} }>
+<FiActivity  style={{backgroundColor: "green", height: "30%", borderRadius: "54px", width: "24%", color:"white"}} className="icoo" /> 
 <span className ="spanS"  style={{fontSize: "18px", marginTop: "10px"}} > No refresh websites(SPA) </span>
  
  </div></div>
- <div id="C1" style={{height: "0", backgroundColor:"#1f1d2b", transition: "height 2s ease-in"}} ref={logoRef} > 
-
- <div id ="swipe>">  <Advanced /> </div> 
- 
- 
- </div>
 
 
-<div  className = "Jb"  id ="jbox2" > ee <div id ="jbox2R">
+
+
+
+<div  className = "Jb"  id ="jbox2" > 
+
+<div id ="jbox2R" ref={jbox2R}  >
 <AiFillDatabase style={{backgroundColor: "green", height: "30%", borderRadius: "54px", width: "25%", color:"white"}} className="icoo" /> 
-<span class ="spanS" style={{fontSize: "18px"}} > Booking systems </span>
+<span className ="spanS" style={{fontSize: "18px"}} > Booking systems </span>
 
 </div></div>
+ 
 
 
 <div  className = "Jb"  id ="jbox3"> <div id ="jbox3R">
@@ -116,10 +139,21 @@ const BoxesJ = () => {
 </div>
 
 
+</div>
 
+   <div  ref={cRef}  id="C1"  > 
 
+   <h1 onClick={Testclick}> click </h1>
+ 
+</div>
+
+</>
     );
+
+ 
     
 }
+
+
 
 export default BoxesJ;

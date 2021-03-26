@@ -66,26 +66,7 @@ export default function ButtonAppBar() {
   const display = {
   display: "none" 
   }
-
-  useEffect(
-    () => {
-      let timer1 = setTimeout(() =>  window.scroll({
-        top: 1,
-        left: 0,
-        behavior: 'smooth',
-      }),
-      
-      
-      
-      50);
  
-      return () => {
-        clearTimeout(timer1);
-      };
-    }, []
-  
-  );
-  
 
 
   
