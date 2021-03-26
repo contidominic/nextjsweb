@@ -3,10 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ButtonAppBar from "../src/Navpage";
 import Middlesection from "../src/Middlesection";
-<<<<<<< HEAD
+ 
 import Decks from "../src/swipe/Cards";
-=======
->>>>>>> 28e88dd6f74bb1bcdc2cb93db51e9ada70ddd7e6
+ 
  
 import BoxesJ from "../src/boxesJ";
 import FeatBoxes from "../src/pageone/FeatBoxes";
@@ -37,14 +36,10 @@ const Layout = props => (
     
 
  
-   <Middlesection />
-<<<<<<< HEAD
+   <Middlesection /> 
 
 
-    
-=======
-   
->>>>>>> 28e88dd6f74bb1bcdc2cb93db51e9ada70ddd7e6
+ 
     </div>
   );
   
