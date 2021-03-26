@@ -47,7 +47,8 @@ a {
   #joinedBoxes > div {
 
   flex: 25%;
-  height: 240px;
+  
+  height: 280px;
   
    
   
@@ -56,7 +57,7 @@ a {
   }
   
   #jbox1 {
-    background-image: url("https://i.ibb.co/VwtdkKn/TJ4b-Bt-TCGn-Gq-XNS6-Dgsdce-50.png");
+    background-image: url("https://i.ibb.co/m85dJHQ/TJ4b-Bt-TCGn-Gq-XNS6-Dgsdce-50.png");
     background-color: #cccccc;
   
  
@@ -75,7 +76,7 @@ a {
    
   
   #jbox2 {
-    background-image: url("https://i.ibb.co/VwtdkKn/TJ4b-Bt-TCGn-Gq-XNS6-Dgsdce-50.png");
+    background-image: url("https://i.ibb.co/ZLrvsMc/images-2.jpg");
     background-color: #cccccc;
    
     background-position: center;
@@ -85,8 +86,7 @@ a {
      
   }
   #jbox3 {
-    background-image: url("https://i.ibb.co/VwtdkKn/TJ4b-Bt-TCGn-Gq-XNS6-Dgsdce-50.png");
-    background-color: #cccccc;
+    background-image: url("https://i.ibb.co/Jq4XTZf/images-1.jpg");
    
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ a {
   }
   
   #jbox4 {
-    background-image: url("https://i.ibb.co/VwtdkKn/TJ4b-Bt-TCGn-Gq-XNS6-Dgsdce-50.png");
+    background-image: url("https://i.ibb.co/wyM7hJD/Webp-net-resizeimage-min.jpg");
     background-color: #cccccc;
    
     background-position: center;
@@ -107,7 +107,7 @@ a {
   }
 
   #jbox5 {
-    background-image: url("https://i.ibb.co/VwtdkKn/TJ4b-Bt-TCGn-Gq-XNS6-Dgsdce-50.png");
+    background-image: url("https://i.ibb.co/0qt77s6/4483750017-iiotsecurity-1000x536-38-1-min.jpg");
     background-color: #cccccc;
    
     background-position: center;
@@ -117,7 +117,7 @@ a {
    
   }
   #jbox6 {
-    background-image: url("https://i.ibb.co/VwtdkKn/TJ4b-Bt-TCGn-Gq-XNS6-Dgsdce-50.png");
+    background-image: url("https://i.ibb.co/ccDyxYP/Webp-net-resizeimage-1-min.jpg");
     background-color: #cccccc;
    
     background-position: center;
@@ -128,7 +128,7 @@ a {
   }
 
   #jbox7 {
-    background-image: url("https://i.ibb.co/VwtdkKn/TJ4b-Bt-TCGn-Gq-XNS6-Dgsdce-50.png");
+    background-image: url("https://i.ibb.co/f163ZRY/Webp-net-resizeimage-2.jpg");
     background-color: #cccccc;
    
     background-position: center;
@@ -139,7 +139,7 @@ a {
   }
 
   #jbox8 {
-    background-image: url("https://miuc.org/wp-content/uploads/2017/01/Study-Computer-Science-1280x720.jpg");
+    background-image: url("https://i.ibb.co/T1g37yK/Webp-net-resizeimage-3.jpg");
     background-color: #cccccc;
    display:flex;
    
@@ -618,7 +618,7 @@ border-radius: 18px;
  }
 }
  
-  #C1 {
+  .C1 {
     display: block !important;
     height:100% !important;
     width:0;
@@ -637,7 +637,7 @@ border-radius: 18px;
 
 
 @media only screen and (max-width: 600px) {
-  #C1 {
+  .C1 {
     display: block ;
     height:100% ;
     width:0 ;
