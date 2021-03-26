@@ -36,9 +36,14 @@ const Layout = props => (
     
 
  
+<<<<<<< HEAD
    <Middlesection /> 
 
 
+=======
+   <Middlesection />
+ 
+>>>>>>> a62aaa3f7298b8b11d4bc3af046d0c87e2cb4cde
  
     </div>
   );
