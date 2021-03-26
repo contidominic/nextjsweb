@@ -25,7 +25,7 @@ const NavR = () => {
             <div style={{height: "100%"}} >
             <div className="NavRtop">
             
-               <div className="navRtop1"><img src={"http://www.simpleimageresizer.com/_uploads/photos/fc73a45e/Selection-128_1_50.jpg"} width="100%" height="auto"  /> </div>
+               <div className="navRtop1"></div>
                
 
          
