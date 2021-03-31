@@ -9,9 +9,9 @@ import {FiActivity} from "react-icons/fi";
 
 const Parag2 = () => {
 
-    const computer = "https://i.ibb.co/gV9CXMb/download.png"
-    const tablet = "https://i.ibb.co/fSLybdK/s3-t-1.png"
-    const phone ="https://i.ibb.co/zr4kfpf/drimark.png"
+    const computer = "/comscree.jpg"
+    const tablet = "/tablet.jpg"
+    const phone ="/phone.jpg"
 
     return (
         <div>

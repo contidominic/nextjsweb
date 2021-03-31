@@ -1,4 +1,5 @@
 import {FcViewDetails} from "react-icons/fc";
+import Image from 'next/image'
 
 const Feat22 = () => {
   return (
