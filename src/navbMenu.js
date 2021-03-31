@@ -1,6 +1,7 @@
 
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
+import Image from 'next/image'
 import { FcList } from "react-icons/fc";
 import { AwesomeButton } from "react-awesome-button";
 import { FcElectronics } from "react-icons/fc";
@@ -25,7 +26,7 @@ const NavR = () => {
             <div style={{height: "100%"}} >
             <div className="NavRtop">
             
-               <div className="navRtop1"><img src={"http://www.simpleimageresizer.com/_uploads/photos/fc73a45e/Selection-128_1_50.jpg"} width="100%" height="auto"  /> </div>
+               <div className="navRtop1"> </div>
                
 
          
@@ -33,7 +34,7 @@ const NavR = () => {
               
             </div>
 <div className="mainLogo">
-<img src={"    https://www.iottechtrends.com/assets/uploads/2019/09/Nest-Headline-800x400.png"} width="30%" height="30%" />
+ 
 
 
 </div>            

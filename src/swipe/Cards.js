@@ -5,11 +5,11 @@ import { useGesture } from "react-use-gesture";
  
 
 const unsortedCards = [
-  "https://i.ibb.co/XbLQw9g/Selection-320.jpg",
- "https://i.ibb.co/7gTPKT3/Selection-319.jpg",
-  "https://i.ibb.co/d0ZRCh4/Selection-321.jpg",
- "https://i.ibb.co/c826Z2n/Selection-324.jpg",
-  'https://i.ibb.co/5XQzwd5/Selection-322.jpg',
+  "/Cardtesting.jpg",
+ "/CardUI.jpg",
+  "/discoverCard.jpg",
+ "/marketing.jpg",
+  'build.jpg',
  
  
  

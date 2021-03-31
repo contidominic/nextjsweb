@@ -9,7 +9,7 @@ import {FaCcVisa } from "react-icons/fa";
 import {FaEdge } from "react-icons/fa";
 import {FaBuromobelexperte } from "react-icons/fa";
 import { FaPhoenixSquadron} from "react-icons/fa";
-import DemoSwipe from "./swipe/Swipe1"
+ 
  
 
  

@@ -678,9 +678,8 @@ border-radius: 18px;
     position: fixed;
     top: 0;
     left: 0;
- 
- 
- 
+    transition: width 1s ease-in;
+   
   
     box-shadow: 6px 0 6px -3px #333;
   

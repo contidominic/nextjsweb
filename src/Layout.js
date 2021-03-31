@@ -43,10 +43,6 @@ const Layout = props => (
  
    <Middlesection />
  
-   <Middlesection /> 
-
- 
-   <Middlesection />
  
  
  

@@ -1,5 +1,6 @@
 import React, { useState, useEffect }  from 'react';
 import { AwesomeButton } from "react-awesome-button";
+import Image from 'next/image'
 import "react-awesome-button/dist/styles.css";
 import {FiActivity} from "react-icons/fi";
 import NavR from "../src/navbMenu";
