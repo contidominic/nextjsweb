@@ -7,7 +7,7 @@ import {FiActivity} from "react-icons/fi";
 import NavR from "../src/navbMenu";
 import { FiAlignJustify} from "react-icons/fi";
 import {FcViewDetails} from "react-icons/fc";
-import Link from 'next/link'
+ 
 
 
 
@@ -89,19 +89,7 @@ export default function ButtonAppBar() {
     <div className=" mobile1"  >
     <div>
     
-    <Image
-     src="/logo1.jpg" 
-     alt="business logo"
-  
-      width={160}
-            height={120}
-       
-            quality={35}
-            sizes="(max-width: 600px) 59vw, (max-width: 1023px) 4vw, 2vw"
- 
-  
-      /> 
-   
+     
  
    </div>
     <div className = "MenuIconbox">  
