@@ -1172,19 +1172,47 @@ margin-left: 4px !important;
       
         
         position: relative;
-        background: url("/bgwater.jpg");
+    
  
         width: 100%;
       
-        perspective: 1000px;
-        perspective-origin: 50% 50%;
-        animation: animation 300s linear infinite;
+       
         height: 40vw;
-   
-    
-        
+  
         
         }
+
+        @media only screen and (max-width: 2500px) {
+          .con1{
+            background: url("/bgwater.jpg");
+            width: 100%;
+   
+            perspective: 1000px;
+            perspective-origin: 50% 50%;
+            animation: animation 300s linear infinite;
+            height: 40vw;
+      
+            
+         
+           }
+            
+           }
+
+           @media only screen and (max-width: 1400px) {
+            .con1{
+              background: url("/wgwaterlap.jpg");
+              width: 100%;
+        
+              perspective: 1000px;
+              perspective-origin: 50% 50%;
+              animation: animation 300s linear infinite;
+              height: 40vw;
+        
+              
+           
+             }
+              
+             }
 
         @keyframes animation {
           100%{
@@ -1300,14 +1328,7 @@ font-weight:  bold;
         
         } 
 
-        @media only screen and (max-width: 600px) {
-          .con1{
-            display: none;
-            
-         
-           }
-            
-           }
+      
 
  .con2 {
              display: none;
@@ -1328,30 +1349,20 @@ font-weight:  bold;
               display: block;
               position: relative;
               height: 700px;
-              background: url("/bgwater.jpg");
+              background: url("/bgScot.jpg");
             
               width: 100%;
             
               perspective: 100%;
               perspective-origin: 50% 50%;
-              animation: animation 400s linear infinite;
+              animation: animation 600s linear infinite;
           
            
              }
               
              }
 
-             @media only screen and (max-width: 600px) {
-              .con2 img {
-              width: 100%;
-              height:700px;
-             
-            
-            
-             
-               }
-                
-               }
+           
   
 
                @media only screen and (max-width: 600px) {
@@ -1363,6 +1374,14 @@ font-weight:  bold;
                  }
                   
                  }
+
+                 @media only screen and (max-width: 600px) {
+                  .con1 {
+                    display: none;
+                 
+                   }
+                    
+                   }
     
                  @media only screen and (max-width: 600px) {
                  #AppB{

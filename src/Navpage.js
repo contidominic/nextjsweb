@@ -1,6 +1,7 @@
 import React, { useState, useEffect }  from 'react';
 import { AwesomeButton } from "react-awesome-button";
 import Image from 'next/image'
+
 import "react-awesome-button/dist/styles.css";
 import {FiActivity} from "react-icons/fi";
 import NavR from "../src/navbMenu";
@@ -88,7 +89,18 @@ export default function ButtonAppBar() {
     <div className=" mobile1"  >
     <div>
     
-    <img src={" https://i.ibb.co/rkL8My8/logoo.png"} width="100%" height="100%" /> 
+    <Image
+     src="/logo1.jpg" 
+     alt="business logo"
+  
+      width={160}
+            height={120}
+       
+            quality={35}
+            sizes="(max-width: 600px) 59vw, (max-width: 1023px) 4vw, 2vw"
+ 
+  
+      /> 
    
  
    </div>
