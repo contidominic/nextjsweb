@@ -26,7 +26,11 @@ const NavR = () => {
             <div style={{height: "100%"}} >
             <div className="NavRtop">
             
+<<<<<<< HEAD
                <div className="navRtop1"> </div>
+=======
+               <div className="navRtop1"></div>
+>>>>>>> 65cf0fa543b71032de7929353a095fb7523e4bff
                
 
          
