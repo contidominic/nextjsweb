@@ -1410,11 +1410,11 @@ font-weight:  bold;
 
                    @media only screen and (max-width: 600px) {
                     .con2Bb img {
-                    width:  70%;
-                    height: auto;
+                    width:  auto;
+                    height: 209px;
                     position: absolute;
-                    bottom: 4px;
-                    left: 5vw;
+                    bottom: 0px;
+                
                    
                     
                       }
