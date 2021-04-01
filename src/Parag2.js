@@ -23,15 +23,12 @@ const Parag2 = () => {
     
 </div>
 <div className ="con2Bb">
-<img id ="pc" src ="https://i.ibb.co/fSLybdK/s3-t-1.png" alt="addlater" />
+<img id ="pc" src ={tablet} alt="addlater" />
     
 </div>
 
  
-<div className ="con2BC">
-<img id ="pc" src ={phone} alt="addlater" />
-    
-</div>
+ 
 
 <div id = "miniC1">
     <p style={{fontSize:"16px"}}>App Dev Agency</p>
