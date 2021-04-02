@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ButtonAppBar from "../src/Navpage";
 import Middlesection from "../src/Middlesection";
+import HomeSwipe from "../src/swipe/HomeSwipe";
  
 import Decks from "../src/swipe/Cards";
  
@@ -29,7 +30,7 @@ const Layout = props => (
   </div>
 <BoxesJ />
 <div className ="featureBC"> <FeatBoxes /> </div>
-<div id ="root1"> <Decks/> </div>
+<div id ="root1"> <HomeSwipe /> </div>
 
 
   

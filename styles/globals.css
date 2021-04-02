@@ -1167,26 +1167,13 @@ margin-left: 4px !important;
         display: none;
       }
       
-      
-      .con1 {
-      
-        
-        position: relative;
-    
- 
-        width: 100%;
-      
        
-        height: 40vw;
-  
-        
-        }
 
         @media only screen and (max-width: 2500px) {
-          .con1{
+          .con2{
             background: url("/bgwater.jpg");
             width: 100%;
-   
+   position: relative;
             perspective: 1000px;
             perspective-origin: 50% 50%;
             animation: animation 300s linear infinite;
@@ -1199,10 +1186,10 @@ margin-left: 4px !important;
            }
 
            @media only screen and (max-width: 1400px) {
-            .con1{
+            .con2{
               background: url("/wgwaterlap.jpg");
               width: 100%;
-        
+              position: relative;
               perspective: 1000px;
               perspective-origin: 50% 50%;
               animation: animation 300s linear infinite;
@@ -1248,15 +1235,7 @@ margin-left: 4px !important;
 
         }
        
-        #miniC p {
-        font-size: 1vw;
-        margin-left: 2px;
-        margin-top: 20px;
-        
-        
-     
-        
-        }
+      
  
         @media only screen and (max-width: 600px) {
           .aws-btn__wrapper:before {
@@ -1272,69 +1251,10 @@ margin-left: 4px !important;
 
         
         }
-
-         #miniC {
-          
-         width: 40%;
-         text-align: center;
-         position: absolute;
-         top: 41%;
-         left: 30%;
-         transform: translate(-50%, -50%);
-       
-        font-family: 'Roboto', sans-serif;
-       
-        box-shadow:         inset 0 0 10px #000000;
-        color: white;
-       
-      
-        height:14vw;
-      
-       
-        background-color: #1f1d2b;
-        opacity: 0.7;
-     
-      
-        }
-        
-
-#Butt {
- max-width: 80px;
-  height: auto;
-  position: absolute;
-bottom: 28%;
-left: 25%;
  
-color: white;
-font-weight:  bold;
-
-}
-         
-        #but {
-        font-size: 1vw;
-        width: 10vw;
-        height: 4vw;
-    
-    font-weight:  bold;
-        
-        background-color:  teal;
-     
-  color: white;
-        text-align: center;
-        opacity: 0.6;
-        box-shadow:         inset 0 0 10px #000000;
-        
-      
-        
-        } 
-
       
 
- .con2 {
-             display: none;
-             position: relative;
-            
-           }
+  
       
            @keyframes animation {
               100%{
@@ -1365,23 +1285,7 @@ font-weight:  bold;
            
   
 
-               @media only screen and (max-width: 600px) {
-                .con2 {
-                  display: block;
-                  position: relative;
-              
-               
-                 }
-                  
-                 }
-
-                 @media only screen and (max-width: 600px) {
-                  .con1 {
-                    display: none;
-                 
-                   }
-                    
-                   }
+             
     
                  @media only screen and (max-width: 600px) {
                  #AppB{
@@ -1394,48 +1298,60 @@ font-weight:  bold;
                    }
 
 
-                   @media only screen and (max-width: 600px) {
-                    .con2Ab img {
-                    width:  100%;
-                    height: auto;
-                    position: absolute;
-                    bottom: -3px;
-                    left: 20vw;
-                   
-                    
-                      }
-                       
-                      }
-   
+                 
 
                    @media only screen and (max-width: 600px) {
                     .con2Bb img {
-                    width: 100%;
-                    height: 209px;
+                  
+                      
+                      width: 80%;
+                      height: auto;
+                      position: absolute;
                     position: absolute;
                     bottom: 0px;
+                    left: 4vw;
                 
                    
                     
                       }
                        
-                      }
-                    
-                      @media only screen and (max-width: 600px) {
-                        .con2BC img {
-                        width:  30%;
-                        height: auto;
+                      } 
+
+                      @media only screen and (min-width: 601px) {
+                        .con2Bb img {
                       
-                        position: absolute;
-                        bottom: 0px;
-                        left: 70vw;
+                      width: 300px;
+                      height: auto;
+
+                          height: auto;
+                          position: absolute;
+                      
+                        bottom: 0;
+                    
                        
                         
                           }
                            
-                          }
+                          } 
 
+                          @media only screen and (min-width: 120px) {
+                            .con2Bb img {
+                          
+                          width: 350px;
+                          height: auto;
+    
+                              height: auto;
+                              position: absolute;
+                          
+                            bottom: 0;
                         
+                           
+                            
+                              }
+                               
+                              } 
+    
+                            
                          
                      
                       
