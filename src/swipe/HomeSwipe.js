@@ -23,10 +23,10 @@ const HomeSwipe = () => {
 
     return (
 
-<div>
+<>
      {Scr ? <Decks /> : null }
 
-      </div>
+    </>
     )
 
 }
