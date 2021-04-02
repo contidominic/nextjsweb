@@ -11,8 +11,8 @@ const HomeSwipe = () => {
 
     const HandleClick = () => {
         var scrolled = document.scrollingElement.scrollTop;
-        scrolled > 200 ? SetScr(true) : null;
-        console.log("done")
+        scrolled > 4000 ? SetScr(true) : null;
+        console.log(scrolled)
  
 
     }
