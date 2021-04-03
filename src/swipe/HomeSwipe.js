@@ -1,4 +1,4 @@
-import { render } from "react-dom";
+ 
 import React, { useState , useEffect} from "react";
 import dynamic from "next/dynamic";
 import Decks from "./Cards";

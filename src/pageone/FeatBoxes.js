@@ -167,9 +167,7 @@ export default function FeatBoxes() {
     <>
       <div className="containerFeat">
         <div className="video">
-          <video autoPlay={true} loop muted>
-            <source id="video" src={"ezgif.com-gif-maker.mp4"} type="video/mp4"></source>
-          </video>
+     <img src ="/spa.jpg" alt="spa" />
         </div>
         <Feat2 />
       </div>
@@ -177,9 +175,7 @@ export default function FeatBoxes() {
       <div className="containerFeat1">
       <Feat22 />
         <div className="video">
-          <video autoPlay={true} loop muted>
-            <source id="video" src={"ezgif.com-gif-maker.mp4"} type="video/mp4"></source>
-          </video>
+        <img src ="/spa.jpg" alt="spa" />
         </div>
     
       </div>

@@ -1704,7 +1704,7 @@ height: 600px;
   height: 600px!important;
 }
 
-.video video {
+.video img {
   display: flex;
   align-items: center;
   width: 40vw;
@@ -1717,7 +1717,7 @@ height: 600px;
 
  
 
-.video1 video {
+.video1 img {
   align-items: center!important;
   width: 40vw!important;
   height: auto!important;
@@ -1739,7 +1739,7 @@ height: 600px;
 }
 
 @media screen and (max-width: 600px) {
-  .videomob video {
+  .videomob img{
   
  display: block;
     width: 90%!important;
@@ -1785,7 +1785,7 @@ height: 600px;
 }
 
 @media screen and (max-width: 600px) {
-  .video video {
+  .video img {
     width: 90%;
     height: auto;
     margin: 0 auto;
@@ -1803,7 +1803,7 @@ height: 600px;
 }
 
 @media screen and (max-width: 600px) {
-  .video1 video {
+  .video1 img {
     width: 100%;
    
   }
