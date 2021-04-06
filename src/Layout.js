@@ -30,8 +30,9 @@ const Layout = props => (
   </div>
 <BoxesJ />
 
-<div id ="root1"> <HomeSwipe /> </div>
+
 <div className ="featureBC"> <FeatBoxes1 /> </div>
+<div id ="root1"> <HomeSwipe /> </div>
 
 
   
