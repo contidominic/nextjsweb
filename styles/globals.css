@@ -57,7 +57,7 @@ a {
   }
   
   #jbox1 {
-    background-image: url("/girlpc.jpg");
+    background-image: url("https://i.ibb.co/t8MkTpn/girlpc.jpg");
     background-color: #cccccc;
   
  
@@ -76,7 +76,7 @@ a {
    
   
   #jbox2 {
-    background-image: url("/image3.jpg");
+    background-image: url("https://i.ibb.co/GFBBFny/image3.jpg");
     background-color: #cccccc;
    
     background-position: center;
@@ -86,7 +86,7 @@ a {
      
   }
   #jbox3 {
-    background-image: url("/image1.jpg");
+    background-image: url("https://i.ibb.co/kKkBwH6/image1.jpg");
    
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ a {
   }
   
   #jbox4 {
-    background-image: url("/image4.jpg");
+    background-image: url("https://i.ibb.co/nPZjdGF/image4.jpg");
     background-color: #cccccc;
    
     background-position: center;
@@ -107,7 +107,7 @@ a {
   }
 
   #jbox5 {
-    background-image: url("/4484.jpg");
+    background-image: url("https://i.ibb.co/6nPM0n3/image5.jpg");
     background-color: #cccccc;
    
     background-position: center;
@@ -117,7 +117,7 @@ a {
    
   }
   #jbox6 {
-    background-image: url("/image5.jpg");
+    background-image: url("https://i.ibb.co/6nPM0n3/image5.jpg");
     background-color: #cccccc;
    
     background-position: center;
@@ -128,7 +128,7 @@ a {
   }
 
   #jbox7 {
-    background-image: url("/net.jpg");
+    background-image: url("https://i.ibb.co/kMpbxwx/net.jpg");
     background-color: #cccccc;
    
     background-position: center;
@@ -139,7 +139,7 @@ a {
   }
 
   #jbox8 {
-    background-image: url("/image6.jpg");
+    background-image: url("https://i.ibb.co/rpB2FNt/image6.jpg");
     background-color: #cccccc;
    display:flex;
    

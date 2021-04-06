@@ -1,5 +1,4 @@
-import Image from 'next/image';
-
+ 
 export default function Featboxes1() {
   return (
  
@@ -7,12 +6,7 @@ export default function Featboxes1() {
     <div className="confeatt">
      <div className="firstDiv">
      <div id ="test1" style={{ position: 'relative', width: "100%", height: 'auto' }}>
-     <Image
-        alt="Mountains"
-        src="/spa.jpg"
-        layout="fill"
-        objectFit="cover"
-      />
+  
     </div>
     </div>
 
