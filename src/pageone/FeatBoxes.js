@@ -86,7 +86,7 @@ const Feat2 = () => {
       <h1>
         <b>Website vs Web App</b>
       </h1>
-      <div className="featBoxC">
+      <div className="featdiv">
       <div className="featboxP">
      
       <p>
@@ -166,18 +166,20 @@ export default function FeatBoxes() {
   return (
     <>
       <div className="containerFeat">
-        <div className="video">
-     <img src ="/spa.jpg" alt="spa" />
+      <div classname="confeata">
+        <Image src ="/spa.jpg" alt="spa" height={640} width={676}/>
         </div>
-        <Feat2 />
+        <div className="confeta1">
+        <Feat2 /></div>
       </div>
   
-      <div className="containerFeat1">
-      <Feat22 />
-        <div className="video">
-        <img src ="/spa.jpg" alt="spa" />
+      <div className="containerFeat">
+      <div classname="confeata">
+        <Image src ="/spa.jpg" alt="spa" height={640} width={676}/>
         </div>
-    
+        <div className="confeta1">
+      <Feat22 />
+     </div>
       </div>
 
     

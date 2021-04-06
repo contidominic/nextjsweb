@@ -9,7 +9,7 @@ import Decks from "../src/swipe/Cards";
  
  
 import BoxesJ from "../src/boxesJ";
-import FeatBoxes from "../src/pageone/FeatBoxes";
+import FeatBoxes1 from "../src/pageone/FeatBoxes1";
  
  
  
@@ -29,7 +29,7 @@ const Layout = props => (
         {props.children}
   </div>
 <BoxesJ />
-<div className ="featureBC"> <FeatBoxes /> </div>
+<div className ="featureBC"> <FeatBoxes1 /> </div>
 <div id ="root1"> <HomeSwipe /> </div>
 
 
