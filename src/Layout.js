@@ -31,7 +31,6 @@ const Layout = props => (
 <BoxesJ />
 
 
-<div className ="featureBC"> <FeatBoxes1 /> </div>
 
 
   
