@@ -29,8 +29,9 @@ const Layout = props => (
         {props.children}
   </div>
 <BoxesJ />
-<div className ="featureBC">  </div>
+
 <div id ="root1"> <HomeSwipe /> </div>
+<div className ="featureBC"> <FeatBoxes1 /> </div>
 
 
   
