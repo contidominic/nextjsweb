@@ -5,7 +5,7 @@ export default function Featboxes1() {
    <div className="imageC">
     <div className="confeatt">
      <div className="firstDiv">
-     <div id ="test1" style={{ position: 'relative', width: "100%", height: 'auto' }}>
+     <div id ="test1" style={{ position: 'relative', width: "100%", height: '500px' }}>
   
     </div>
     </div>
