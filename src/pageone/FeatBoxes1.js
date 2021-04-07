@@ -1,4 +1,6 @@
  
+import Image from 'next/image'
+
 export default function Featboxes1() {
   return (
  
@@ -7,6 +9,13 @@ export default function Featboxes1() {
      <div className="firstDiv">
      <div id ="test1" style={{ position: 'relative', width: "100%", height: '500px' }}>
   
+     <Image
+      alt="Mountains"
+      src="/spa.jpg"
+      layout="intrinsic"
+      width={700}
+      height={475}
+    />
     </div>
     </div>
 
