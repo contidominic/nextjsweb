@@ -5,22 +5,10 @@ export default function Featboxes1() {
   const [Scr, SetScr] = useState (false);
   
 
-  const HandleClick1 = () => {
-      var scrolled = document.scrollingElement.scrollTop;
-      console.log(scrolled)
-      console.log("done")
-      scrolled > 200 ? SetScr(true) : null;
-     
-      
-  }
+ 
 
   useEffect(() => {
-      document.addEventListener("scroll", HandleClick1);
-      return () => {
-        window.removeEventListener('scroll', HandleClick1);
-      };
-  
-      console.log("runuse")
+    SetScr(true) 
     }, []);
 
   return (
