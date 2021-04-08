@@ -1677,6 +1677,7 @@ height: 600px;
  
  
   width: 100%;
+  height: auto;
  
 }
  
@@ -1705,13 +1706,15 @@ height: 600px;
   display:flex;
   justify-content: center;
   background-color:rgba(0,117,39,0.07);
-  height: 800px;
+  width: 100%;
+  height:100%;
+  padding: 30px;
 }
 
 .confeatt {
   display: flex;
   justify-content: center;
-  align-items: center;
+ 
   width: 100%;
   height: 100%;
  
@@ -1725,13 +1728,14 @@ height: 600px;
   width: 40%;
 height: auto;
  justify-content: center!important;
-  background-color:blue;
+ align-items: center;
+ 
   margin-right: 4vw;
 }
 
 .secondDiv {
   width: 40%;
- height: 600px ;
+ height: 100% !important;
  
 }
 
@@ -1755,9 +1759,20 @@ height: auto;
 
 
 @media (max-width: 600px) {
+ .secondDiv{
+ 
+ 
+  }
+}
+
+
+
+@media (max-width: 600px) {
   #test1 {
  
-  width: 100%;
+    width: 95% !important;
+  height: auto;
+  
   
   }
 }
@@ -1765,9 +1780,10 @@ height: auto;
 
 @media (max-width: 600px) {
   .imageC {
- padding: 0 !important;
+ padding: 0% !important;
  height: 100% !important;
  width: 100% !important;
+ 
   }
 }
 
@@ -1775,17 +1791,27 @@ height: auto;
 
 @media (max-width: 600px) {
   .secondDiv {
-    height: 50vw!important;
+    height:auto;
  width: 100%;
+ padding: 20px;
+ 
+ 
+ 
   }
 }
 
 @media (max-width: 600px) {
   .firstDiv {
- height:100%;
+ height:auto;
  width: 100%;
+ margin-top: 20px !important;
+ 
+ margin: 0 auto;
   }
 }
+
+ 
+
 
 
 .secondDiv h1 {
@@ -1795,9 +1821,14 @@ height: auto;
 .secondDiv p {
   margin-top: 30px;
   color: black;
+  font-size: 18px;
 }
 
-
+.centered {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+}
  
 
  

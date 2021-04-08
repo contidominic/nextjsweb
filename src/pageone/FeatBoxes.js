@@ -41,7 +41,7 @@ const Feat22 = () => {
         </div>
         <div className ="centered1">
  <FcViewDetails size="50px" 
- style={{marginRight: "20px"}} />  
+ 
  Can be used for simple websites or to create actual applications in
           the browser
         
