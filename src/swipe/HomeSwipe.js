@@ -11,14 +11,19 @@ const HomeSwipe = () => {
 
     const HandleClick = () => {
         var scrolled = document.scrollingElement.scrollTop;
-        scrolled > 600 ? SetScr(true) : null;
         console.log(scrolled)
+        scrolled > 600 ? SetScr(true) : null;
+      
  
 
     }
 
     useEffect(() => {
-        document.addEventListener("scroll", HandleClick);
+        window.addEventListener("scroll", HandleClick);
+        return () => {
+            window.removeEventListener('scroll',HandleClick);
+          };
+      
       }, []);
 
     return (

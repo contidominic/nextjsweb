@@ -57,7 +57,7 @@ a {
   }
   
   #jbox1 {
-    background-image: url("https://i.ibb.co/t8MkTpn/girlpc.jpg");
+    background-image: url("/girl.jpg");
     background-color: #cccccc;
   
  
@@ -86,7 +86,7 @@ a {
      
   }
   #jbox3 {
-    background-image: url("https://i.ibb.co/kKkBwH6/image1.jpg");
+    background-image: url("/image1.jpg");
    
     background-position: center;
     background-repeat: no-repeat;
@@ -1269,7 +1269,7 @@ margin-left: 4px !important;
               display: block;
               position: relative;
               height: 700px;
-              background: url("https://i.ibb.co/6wms7GZ/bgScot.jpg");
+              background: url("/bgScot.jpg");
             
               width: 100%;
             
@@ -1723,7 +1723,7 @@ height: 600px;
 .firstDiv {
   display: flex;
   width: 40%;
- height:30vw;
+height: auto;
  justify-content: center!important;
   background-color:blue;
   margin-right: 4vw;
@@ -1775,14 +1775,14 @@ height: 600px;
 
 @media (max-width: 600px) {
   .secondDiv {
- height: 600px !important;
+    height: 50vw!important;
  width: 100%;
   }
 }
 
 @media (max-width: 600px) {
   .firstDiv {
- height: 10vw;
+ height:100%;
  width: 100%;
   }
 }
